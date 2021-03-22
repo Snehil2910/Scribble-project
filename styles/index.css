@@ -1,0 +1,68 @@
+html{
+height: 100%;
+margin: 0;
+background-image: url('../images/background.jpg');
+height: 100%;
+width:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#header{
+    position: absolute;
+    top:-24px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(23, 109, 196);
+    font-size: 40px;
+    margin-bottom: -7px;
+    
+    }
+h2{
+    font-family: 'Dancing Script', cursive;
+color: black;
+font-size: 15px;
+margin-bottom: -7px;
+}
+#postButtons{
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#btn3{
+    position:absolute;
+    top:0px;
+    right:0px;
+    background-color: blue;
+    color: white;
+    margin-right: 7px;
+}
+#btn4{
+    position:absolute; 
+    top:0px; 
+    right:65px;
+    background-color: blue;
+    color: white;
+    margin-right: 15px;
+}
+#btn1{
+        background-color:rgb(192, 192, 12);
+        color: black;
+        width: 75px;
+        height: 35px;
+        margin-right: 10px;
+        
+        
+    }
+#btn2{
+        background-color:rgb(192, 192, 12);
+        color: black;
+        width: 92px;
+        height: 36px;
+        margin-right: 10px;
+        
+    }
