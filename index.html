@@ -10,9 +10,8 @@
 </head>
 
 <body>
-    <!-- TODO: Include all your code for the header and home page here -->
-    <!--<h1>Scribbler</h1>
-    <h2>Explore,Imagine,Create</h2>-->
+  
+
 <div id="home">
     <div id="header">
         <h1>ScriBBler</h1>
@@ -25,7 +24,71 @@
        <button id="btn1">All Posts</button>
        <button id="btn2">Create Post</button>
 </div>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+       <p id="title">Get Started</p>
+       <div class="inputboxes">
+         <form>
+      <label> <b>Full Name</b></label></br>
+      <input required type="text" id="fullName" placeholder="Enter Full Name" ></br>
+      <label> <b>Username</b></label></br>
+      <input required type="text" id="userName" placeholder="Enter Username"></br>
+      <label> <b>Password</b></label></br>
+      <input required type="password" id="password" placeholder="Enter Password"></br>
+      <label><b> Confirm Password</b></label></br>
+      <input required type="password" id="confirm password" placeholder="Confirm Password"></br>
+      <input type="submit" id="signup" name="Sign Up">
+      </form>
+      </div>
+    </div>
+  
+  </div>
+  <div id="myModal2" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+       <p id="title">Welcome Back!</p>
+       <div class="inputboxes">
+         <form>
+      <label> <b>Username</b></label></br>
+      <input required type="text" id="userName" placeholder="Enter Username"></br>
+      <label> <b>Password</b></label></br>
+      <input required type="password" id="password" placeholder="Enter Password">
+      <input type="submit" id="signin" name="Sign In"></form></br>
+      <br>
+      <br>
+      <div id="lastline">
+      <p id="notmember" style="font-size: initial;">Not a member?</p>
+      <a id="mylink" style="font-size: initial;" href="#" onclick="MyFunction();">Sign Up</a>
+      </div>  
+    </form>
+      </div>
+    </div>
+  </div>
+  <div id="postmodal" class="postmodal">
+
+    <!-- Modal content -->
+    <div class="postmodal-content">
+      <p id="heading">Pen Your Post</p>
+      <span class="close">&times;</span>
+       <label id="Title">Title:</label>
+       <input type="text" id="titleinput"><br>
+       <p id="content">Content:</p><br>
+       <textarea id="textarea"></textarea>
+       <button id="create">Create</button>
+     
+      </div>
+    </div>
+  </div>
+
+  
 </div>
+<script src="../scribbler project/scripts/index.js">
+</script>
 </body>
 
 </html>

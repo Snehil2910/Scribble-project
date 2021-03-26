@@ -66,3 +66,176 @@ margin-bottom: -7px;
         margin-right: 10px;
         
     }
+.modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 11px;
+    border: 1px solid #888;
+    width: 25%;
+    font-size: 30px;
+    position: absolute;
+    top: 21px;
+    left: 455px;
+    text-align: center;
+    height: 443px;
+      }
+      
+ #title{
+    border-bottom:2px solid #CCC;
+ }     
+.close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+.close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      
+.inputboxes{
+    position: absolute;
+    justify-content: left;
+
+}
+input{
+    position: absolute;
+    height: 36px;
+    width: 300px;
+    margin-top: -2px;
+    left: 0px;
+}
+label{
+    font-size: 13px;
+    justify-self: left;
+    margin-top: 10px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+ 
+}
+#signup{
+    position: absolute;
+    height: 38px;
+    width: 308px;
+    margin-top: 22px;
+    left: 0px;
+    background-color: forestgreen;
+}
+#signin{
+    position: absolute;
+    height: 38px;
+    width: 310px;
+    margin-top: 68px;
+    left: 0px;
+    background-color: forestgreen;
+}
+#lastline{
+    position: absolute;
+    float: inline-end;
+    display: -webkit-inline-box;
+    top: 217px;
+    left: 7px;
+    height: 132px;
+    width: 301px;
+}
+#notmember{
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    left: 66px;
+}
+#mylink{
+    position: absolute;
+    top: 59px;
+    left: 168px;
+    
+}
+
+#postContent{
+    position: absolute;
+    height:20px;
+    width:20px;
+    top:10px;
+    left:20px;
+}
+.postmodal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 11px;
+    border: 1px solid #888;
+    width: 64%;
+    font-size: 30px;
+    position: absolute;
+    top: 21px;
+    left: 216px;
+    text-align: center;
+    height: 515px;
+}
+.postmodal{        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); 
+}
+#Title{
+    position: absolute;
+    top: 89px;
+    left: 43px;
+}
+#titleinput{
+    position: absolute;
+    top: 123px;
+    left: 43px;
+}
+#textarea{
+    position: absolute;
+    top: 227px;
+    left: 43px;
+    height: 233px;
+    width: 735px;
+}
+#content{
+    position: absolute;
+    top: 154px;
+    left: 43px;
+}
+#heading{
+    position: absolute;
+    top: -20px;
+    left: 330px;
+}
+#create{
+    position: absolute;
+    color: white;
+    background-color: rgb(45, 163, 45);
+    top: 482px;
+    left: 380px;
+}
