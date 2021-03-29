@@ -52,10 +52,8 @@ window.onclick = function(event){
     postmodal.style.display="none";
   }
 }
-function MyFunction(){
-  modal2.style.display= "none";
-  modal.style.display="block";
-}
+
+
 
 
 
