@@ -1,0 +1,143 @@
+#header{
+    position: absolute;
+    top:-24px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(23, 109, 196);
+    font-size: 40px;
+    margin-bottom: -7px;
+    
+    }
+h2{
+    font-family: 'Dancing Script', cursive;
+color: rgb(65, 63, 63);
+font-size: 15px;
+margin-bottom: -7px;
+}
+#btn3{
+    position:absolute;
+    top:0px;
+    right:0px;
+    background-color: blue;
+    color: white;
+    margin-right: 7px;
+}
+#btn4{
+    position:absolute; 
+    top:0px; 
+    right:65px;
+    background-color: blue;
+    color: white;
+    margin-right: 15px;
+}
+#heading{
+    position: absolute;
+    top: 73px;
+    left: 484px;
+}
+#author{
+    position: absolute;
+    top: 106px;
+    left: 60px;
+}
+#edit{
+    position: absolute;
+    top: 113px;
+    left: 1182px;
+    background-color: rgb(224, 90, 135);
+    color: white;
+    border: none;
+    height: 24px;
+    width: 58px;
+    box-shadow: 0 5px 8px rgb(204, 102, 150);
+}
+#fullpost{
+    position: absolute;
+    top: 145px;
+    left: 57px;
+    margin-right: 75px;
+}
+#like{
+    position: absolute;
+    top: 329px;
+    left: 56px;
+    background-color:rgb(224, 90, 135);
+    color: white;
+    border: none;
+    height: 24px;
+    width: 58px;
+    box-shadow: 0 5px 8px rgb(204, 102, 150);
+}
+#liked{
+    position: absolute;
+    top: 329px;
+    left: 56px;
+    background-color:rgb(224, 90, 135);
+    color: white;
+    border: none;
+    height: 24px;
+    width: 58px;
+    box-shadow: 0 5px 8px rgb(204, 102, 150);
+}
+#likeline{
+    position: absolute;
+    top: 343px;
+    left: 56px;
+}
+#likedline{
+    position: absolute;
+    top: 343px;
+    left: 56px;
+}
+#comments{
+    position: absolute;
+    top: 397px;
+    left: 56px;
+    height: 77px;
+    width: 582px;
+}
+#comment{
+    position: absolute;
+    top: 492px;
+    left: 56px;
+    background-color:rgb(224, 90, 135);
+    color: white;
+    border: none;
+    height: 28px;
+    width: 70px;
+    box-shadow: 0 5px 8px rgb(204, 102, 150);
+}
+#allcomms{
+    position: absolute;
+    top: 517px;
+    left: 56px;
+}
+#save{
+    position: absolute;
+    top: 113px;
+    left: 1182px;
+    background-color: rgb(224, 90, 135);
+    color: white;
+    border: none;
+    height: 24px;
+    width: 58px;
+    box-shadow: 0 5px 8px rgb(204, 102, 150);
+}
+.box-container{
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 52%;
+    background: rgb(216, 213, 213);
+    box-shadow: 0 5px 15px #111;
+    padding: 15px;
+    top: 560px;
+    left: 50px;
+}
+.box-container .box{
+    height: 80%;
+    width: 97%;
+    padding: 10px;
+    background: #f8f8f8;
+}

@@ -46,31 +46,18 @@ margin-bottom: -7px;
     top: 10px;
     left: 10px;
 }
-#post1{
-    position: absolute;
-    top: 93px;
-    left: 66px;
-    background-color: rgb(218, 214, 214);
-    height: 174px;
-    width: 531px;
-    border-radius: 13px;
-   
-}
-#postext{
-    position: absolute;
-    top: 34px;
-    left: 198px;
-    }
-    #title{
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background-color: white;
-        height: 174px;
-        width: 88px;
-        border: 2px ;
-        border-top-left-radius: 13px;
-        border-bottom-left-radius: 13px;
+  #title{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-color: white;
+      height: 174px;
+      width: 88px;
+      border: 2px;
+      border-top-left-radius: 13px;
+      border-bottom-left-radius: 13px;
+      text-align: center;
+        padding-top: 10px;
     }
     #trash{
         position: absolute;
@@ -93,10 +80,14 @@ margin-bottom: -7px;
         color:black;
         width: 551px;
         margin: 13px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
+        text-align: inherit;
+        overflow: hidden;
+        text-overflow: clip;
         left:50px;
+        top: 93px;
+        background-color: rgb(218, 214, 214);
+        height: 174px;
+        border-radius: 13px;
       }
       #post2 {
         position: absolute;
@@ -104,21 +95,16 @@ margin-bottom: -7px;
         color: black;
         width: 551px;
         margin: 13px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-        left: 684px;
-        top: 89px;
-      }
-      #post2{
-        position: absolute;
-    top: 93px;
-    left: 681px;
-    background-color: rgb(218, 214, 214);
-    height: 174px;
-    width: 551px;
-    border-radius: 13px;
-      }
+        text-align: inherit;
+        overflow: hidden;
+        text-overflow: clip;
+        top: 93px;
+        left: 681px;
+        height: 174px;
+        width: 551px;
+        border-radius: 13px;
+        }
+
       #post3 {
         position: absolute;
         top: 292px;
@@ -127,39 +113,26 @@ margin-bottom: -7px;
         height: 174px;
         width: 551px;
         border-radius: 13px;
-      }
-      #post3{
-        position: absolute;
-        background-color: rgb(218, 214, 214);
         color: black;
         width: 551px;
         margin: 13px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-        left: 50px;
-        top: 292px;
+        text-align: inherit;
+        overflow: hidden;
+        text-overflow: clip;
       }
       #post4 {
         position: absolute;
-        background-color: rgb(218, 214, 214);
+        background-color: rgb(218, 214, 214);  
         color: black;
-        width: 551px;
         margin: 13px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-        left: 684px;
-        top: 89px;
-      }
-      #post4{
-        position: absolute;
-        top: 292px;
-        left: 681px;
-        background-color: rgb(218, 214, 214);
+        text-align: inherit;
+        overflow: hidden;
+        text-overflow: clip;
         height: 174px;
         width: 551px;
         border-radius: 13px;
+        top: 292px;
+        left: 681px;
       }
       #post5 {
         position: absolute;
@@ -167,17 +140,11 @@ margin-bottom: -7px;
         color: black;
         width: 551px;
         margin: 13px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-        left: 684px;
-        top: 89px;
-      }
-      #post5{
-        position: absolute;
+        text-align: inherit;
+        overflow: hidden;
+        text-overflow: clip;
         top: 480px;
         left: 361px;
-        background-color: rgb(218, 214, 214);
         height: 174px;
         width: 551px;
         border-radius: 13px;
@@ -189,6 +156,12 @@ margin-bottom: -7px;
       
       .close:hover,
       .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      } 
+      .ellipsis:hover,
+      .ellipsis:focus {
         color: #000;
         text-decoration: none;
         cursor: pointer;
@@ -241,4 +214,20 @@ margin-bottom: -7px;
   top: 64px;
   left: 195px;
   border: none;
+}
+.postcontent{
+  text-align: justify;
+    overflow: hidden;
+    line-break: auto;
+    display: inline-block;
+    word-break: break-word;
+    margin-left: 90px;
+    margin: 30px;
+    padding-left: 120px;
+    width: 350px;
+    height: 128px;
+    
+}
+.names{
+  margin-top: 72px;
 }

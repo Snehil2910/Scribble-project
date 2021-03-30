@@ -1,0 +1,1 @@
+$("#jquery").html("hi i am snehil");

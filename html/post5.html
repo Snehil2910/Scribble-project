@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../../scribbler project/scripts/post.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../../scribbler project/styles/post.css">
+            <script>
+                $(document).ready(function(e){
+                    var count =0;
+                    $('#save').hide();
+                    $('#liked').hide();
+                    $('#likedline').hide();
+
+$('#edit').click(function(){
+ $('#fullpost').focus();
+$('#edit').hide();
+$('#save').show();
+});
+
+
+$('#save').click(function(){
+$('#edit').show();
+$('#save').hide();
+});
+
+$('#like').click(function(){
+    count++;
+    $('#like').hide();
+    $('#liked').show();
+    $('#likedline').html(count+" person likes this");
+    $('#likeline').hide();
+    $('#likedline').show();
+})
+$('#comment').click(function(){
+    var input = $('#comments').val();
+    $('.box').append(input + '<br>');
+    $('#comments').val('');
+    $('.box-container').slideDown();
+})
+
+                });
+
+            </script>
+    </head>
+    <body>
+        <div id="home">
+            <div id="header">
+                <h1>ScriBBler</h1>
+            <h2>Explore, Imagine, Create</h2>
+            </div>
+            <button id="btn3">Sign Up</button>
+            <button id="btn4">Sign In</button>
+            
+           <P id="heading"><b>Everything you should know about ‘module’ & ‘require’ in Node.js<b></P>
+           <p id="author">Srishti</p>
+           <button id="edit">Edit</button>
+           <button id="save">Save</button>
+           <p id="fullpost" contenteditable="true">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+            named xyz.Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+            named xyz.Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+            named xyz.Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+            named xyz.Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+            named xyz.Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+            named xyz.</p>
+           <button id="like">Like</button>
+           <button id="liked">Liked!</button>  
+           <p id="likeline">Be the first one to like this!</p>
+           <p id="likedline"></p> 
+           <textarea id="comments" placeholder="Leave a comment..."></textarea> 
+           <button id="comment">Comment</button>
+           <p id="allcomms">All Comments</p>
+           <div class="box-container">
+               <div class="box"></div>
+           </div>
+        </div>
+        <p id="jquery"></p>
+    </body>
+</html>
